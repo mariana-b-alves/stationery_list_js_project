@@ -1,0 +1,15 @@
+button, input:nth-of-type(2){
+    color: white;
+    background-color: rgb(252, 43, 165);
+
+    padding: .5em 1em;
+    border-radius: 10px;
+
+    font-size:1.1em
+}
+
+button:hover, button:active, input:nth-of-type(2):hover, input:nth-of-type(2):active{
+    color: black;
+    background-color: rgb(255, 121, 199);
+    transform: scale(1.15);
+}
