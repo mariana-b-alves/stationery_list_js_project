@@ -1,37 +1,7 @@
+/*********SECTION (AND OTHERS) STYLES*********/
+
 section, button, input:nth-of-type(2){
     box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.447);
-}
-
-section{
-    position: relative;
-    margin: 0 auto 0 auto; 
-
-    background-color: rgb(88, 161, 230);
-
-    width: 70vw;
-    height: 70vh;
-
-}
-
-h1{
-    padding: 2em 0 1em 0;
-    font-size: 2em;
-    text-transform: uppercase;
-
-    box-shadow: 1px 1px 1px rgb(30, 103, 171);
-}
-
-
-li{
-    list-style: none;
-
-    background-color: rgb(130, 190, 246) ;
-    border-top: 1px solid rgb(158, 205, 250);
-    box-shadow: 1px 1px 1px rgb(30, 103, 171);
-
-    padding: 1em 0 1em 0;
-
-    font-size: 1.1em;
 }
 
 button, input{
@@ -46,3 +16,58 @@ input:nth-of-type(1){
 
     border-radius: 10px;
 }
+
+
+section{
+    position: relative;
+    margin: 0 auto 0 auto; 
+
+    background-color: rgb(88, 161, 230);
+
+    width: 70vw;
+    height: 70vh;
+
+}
+
+/*********H1 STYLES*********/
+
+h1{
+    padding: 2em 0 1em 0;
+    font-size: 2em;
+    text-transform: uppercase;
+
+    box-shadow: 1px 1px 1px rgb(30, 103, 171);
+}
+
+/*********LI STYLES*********/
+li{
+    cursor: move;
+
+    list-style: none;
+
+    background-color: rgb(130, 190, 246) ;
+    border-top: 1px solid rgb(158, 205, 250);
+    box-shadow: 1px 1px 1px rgb(30, 103, 171);
+
+    padding: 1em 0 1em 0;
+
+    font-size: 1.1em;
+}
+
+
+li.dragover{
+    border: 2px dashed #333;
+}
+
+/*********'DONE' CLASS STYLES*********/
+.done {
+    background-color: #999;
+    color: #fff;
+    background-position: right, center;
+    background-repeat: no-repeat;
+}
+  
+  .done a {
+    display:block;
+}
+  
